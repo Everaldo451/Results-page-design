@@ -171,9 +171,6 @@ span {
     .container {
         width: 80%;
     }
-    body {
-        background-color:red;
-    }
 }
 
 @media (max-width: 768px) {
