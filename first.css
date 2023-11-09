@@ -167,7 +167,7 @@ span {
 
 /*Mobile */
 
-@media only screen and (max-width:1050px) {
+@media (max-width:1050px) {
     .container {
         width: 80%;
     }
@@ -176,7 +176,7 @@ span {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 
     .container {
         position: absolute;
