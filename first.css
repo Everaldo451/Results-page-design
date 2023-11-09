@@ -1,0 +1,176 @@
+/*Fonte*/
+
+@font-face {
+    font-family: HankenGrotesk;
+    src: url(HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: HankenGrotesk;
+}
+
+.container {
+    box-shadow: 5px 20px 15px rgb(232, 232, 255);
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+}
+
+.purple {
+    display: block;
+    width: 50%;
+    background-color: rgb(89, 64, 228);
+    text-align: center;
+    padding: 30px 0 50px 0;
+    border-radius: 30px;
+    float: left;
+}
+
+/*Purple*/
+
+#nota {
+    padding: 50px;
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    background-image: linear-gradient(rgb(68, 49, 175),rgb(89, 64, 228));
+    display: inline-block;
+    border-radius: 50%;
+    color: white;
+}
+
+.purple h4{
+    font-size: 20px;
+    margin: 0 0 30px 0;
+    color: rgb(167, 167, 167);
+}
+
+.purple h3{
+    margin: 30px 0 15px 0;
+    font-size: 30px;
+    color: white;
+}
+
+.purple p{
+    color: rgb(167, 167, 167);
+    margin: 0 65px;
+}
+
+.h2 {
+    position: relative;
+}
+
+.h2 p{
+    position: absolute;
+    margin: 0;
+    top:115px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+/*Dados*/
+
+.dados {
+    margin-top: 30px;
+    width: 50%;
+    float: right;
+}
+
+.conteudo {
+    margin: 0 30px
+}
+
+.conteudo h1{
+    margin:0 0 20px 0;
+    font-size: 20px;
+    color:rgb(48, 52, 83)
+}
+
+.conteudo div {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/*Notas*/
+
+.reaction{
+    background-color: rgb(255, 243, 243);
+    position: relative;
+}
+
+.memory{
+    background-color: rgb(253, 253, 234);
+    position: relative;
+}
+
+.verbal{
+    background-color: rgb(238, 255, 236);
+    position: relative;
+}
+
+.visual{
+    background-color: rgb(236, 239, 255);
+    position: relative;
+}
+
+.reaction p, .memory p, .verbal p, .visual p{
+   display: inline-block;
+   margin: 0;
+   position: absolute;
+   top:50%;
+   transform: translate(0,-50%);
+}
+
+#reactionp{
+    margin:0 10px;
+    color:red;
+}
+
+#reactnote, #memnote, #vernote, #visnote {
+    right:20px
+}
+
+#memoryp {
+    margin: 0 10px;
+    color: orange;
+}
+
+#verbalp {
+    margin: 0 10px;
+    color:lightseagreen
+}
+
+#visualp {
+    margin: 0 10px;
+    color:blue;
+}
+
+span {
+    color:gray
+}
+
+#continue{
+    width: 100%;
+    color: white;
+    border: none;
+    background-color: rgb(48, 52, 83);
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
